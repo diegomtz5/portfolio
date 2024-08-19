@@ -421,12 +421,10 @@ body::before {
 
   /* Ensure background covers mobile screens */
   body::before {
-    background-size: cover;
-    background-position: center top;
-    background-attachment: scroll; /* Disable fixed background on mobile */
-    animation: none; /* Disable animation on mobile devices */
+    background-attachment: fixed; /* Make sure the background stays fixed */
+    background-size: cover; /* Ensure the background covers the viewport */
+    animation: none; /* Disable animation for mobile */
   }
-
   /* Adjust padding for sections for better spacing */
   section {
     padding: 40px 15px;
