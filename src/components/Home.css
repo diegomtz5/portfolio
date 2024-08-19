@@ -313,6 +313,7 @@ body::before {
 }
 
 /* Responsive Design */
+/* Responsive Design */
 @media (max-width: 768px) {
   /* Header Adjustments */
   .header {
@@ -341,8 +342,7 @@ body::before {
 
   /* Welcome Section Adjustments */
   .welcome-section {
-    padding: 0 20px;
-    min-height: auto;
+    padding: 80px 20px 0; /* Ensure space from the header */
     text-align: center;
   }
 
@@ -363,6 +363,7 @@ body::before {
   /* About Section Adjustments */
   .about-section {
     padding: 60px 20px;
+    background-color: rgba(245, 245, 245, 0.95); /* Ensure better readability */
   }
 
   .about-container {
@@ -395,6 +396,7 @@ body::before {
   /* Projects List Section */
   .projects-list {
     padding: 30px 20px;
+    background-color: rgba(245, 245, 245, 0.95); /* Ensure uniform background */
   }
 
   .projects-list ul {
@@ -413,5 +415,20 @@ body::before {
 
   .contact-section p {
     font-size: 1.2rem;
+  }
+
+  /* Ensure background covers mobile screens */
+  body::before {
+    background-size: cover;
+    background-position: center top;
+  }
+
+  /* Adjust padding for sections for better spacing */
+  section {
+    padding: 40px 15px;
+  }
+
+  .about-text, .projects-list ul, .contact-section {
+    padding: 0 15px;
   }
 }
