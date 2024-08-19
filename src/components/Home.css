@@ -421,10 +421,18 @@ body::before {
 
   /* Ensure background covers mobile screens */
   body::before {
-    background-attachment: scroll; /* Make sure the background stays fixed */
+    background-attachment: scroll; /* Change to scroll for mobile */
     background-size: cover; /* Ensure the background covers the viewport */
     animation: none; /* Disable animation for mobile */
+    position: absolute; /* Change to absolute to remove any fixed positioning */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: none; /* Ensure no transformation effects are applied */
   }
+  
   /* Adjust padding for sections for better spacing */
   section {
     padding: 40px 15px;
