@@ -343,7 +343,7 @@ body::before {
   /* Welcome Section Adjustments */
   .welcome-section {
     padding: 80px 20px 0; /* Ensure space from the header */
-    text-align: center;
+    text-align: center top;
   }
 
   .welcome-section h1 {
