@@ -421,7 +421,7 @@ body::before {
 
   /* Ensure background covers mobile screens */
   body::before {
-    background-attachment: fixed; /* Make sure the background stays fixed */
+    background-attachment: scroll; /* Make sure the background stays fixed */
     background-size: cover; /* Ensure the background covers the viewport */
     animation: none; /* Disable animation for mobile */
   }
