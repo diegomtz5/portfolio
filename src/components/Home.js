@@ -128,7 +128,6 @@ const Home = () => {
 
         </div>
       </section>
-
       <section id="projects" className="projects-list">
         <h2>Projects</h2>
         <ul>
