@@ -397,7 +397,8 @@ body::before {
   .projects-list {
     padding: 30px 20px;
     background-color: rgba(255, 255, 255, 0.95); /* Slightly darker shade */
-    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to create separation */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to create separation */
+    border-radius: 8px; /* Optional: Add rounded corners for a more refined look */
 }
 
   .projects-list ul {
@@ -424,7 +425,6 @@ body::before {
     background-position: center top;
     background-attachment: scroll; /* Disable fixed background on mobile */
     animation: none; /* Disable animation on mobile devices */
-    position: fixed;
   }
 
   /* Adjust padding for sections for better spacing */
