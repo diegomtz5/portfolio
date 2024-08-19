@@ -421,6 +421,7 @@ body::before {
   body::before {
     background-size: cover;
     background-position: center top;
+    background-attachment: scroll; /* Disable fixed background on mobile */
     animation: none; /* Disable animation on mobile devices */
   }
 
