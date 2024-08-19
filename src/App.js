@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
+import BudgetToBudget from './components/BudgetToBudget';
+import SplitPaymentApp from './components/SplitPaymentApp';
+import MLProject from './components/MLProject';
+import ReceiptScanner from './components/ReceiptScanner';
+import PortfolioWebsite from './components/PortfolioWebsite';
+import CoopSpaceshipFight from './components/CoopSpaceshipFight';
+import Header from './components/Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header /> {/* Keep the Header always visible */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects/budget-to-budget" element={<BudgetToBudget />} />
+        <Route path="/projects/split-payment-app" element={<SplitPaymentApp />} />
+        <Route path="/projects/ml-song-predictor" element={<MLProject />} />
+        <Route path="/projects/receipt-scanner" element={<ReceiptScanner />} />
+        <Route path="/projects/portfolio" element={<PortfolioWebsite />} />
+        <Route path="/projects/coop-spaceship-fight" element={<CoopSpaceshipFight />} />
+      </Routes>
+    </Router>
   );
 }
 

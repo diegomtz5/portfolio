@@ -1,0 +1,27 @@
+.header {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.header ul li {
+  display: inline;
+  margin-right: 20px; /* Adds space between links */
+}
+
+.header ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer; /* Ensure the links behave like buttons */
+}
+
+.header ul li a:hover {
+  text-decoration: underline;
+}

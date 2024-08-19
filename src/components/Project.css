@@ -1,0 +1,107 @@
+/* Project Detail Styling */
+.project-detail {
+  margin: 0 auto;
+  padding: 80px 200px;
+  border-radius: 12px;
+  animation: fadeInUp 1.2s ease-in-out;
+ 
+  max-width: 900px;
+}
+
+/* Headings */
+.project-detail h2 {
+  font-size: 2.8rem;
+  margin-bottom: 25px;
+  color: #008080;
+}
+
+/* Paragraphs */
+.project-detail p {
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+  color: #333333;
+  line-height: 1.8;
+}
+
+/* Unordered List Styling */
+.project-detail ul {
+  list-style-type: disc;
+  margin-left: 30px;
+  margin-bottom: 25px;
+}
+
+.project-detail ul li {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #333333;
+}
+
+/* Technologies Used Styling */
+.technologies-used {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.technologies-used span {
+  padding: 10px 15px;
+  border: 2px solid #008080;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  color: #333333;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.technologies-used span:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Button Styling */
+.project-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #008080;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.project-button:hover {
+  background-color: #00a0a0;
+  transform: translateY(-3px);
+}
+
+/* Load animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .project-detail {
+    padding: 40px 20px;
+  }
+
+  .project-detail h2 {
+    font-size: 2.4rem;
+  }
+
+  .project-detail p,
+  .project-detail ul li {
+    font-size: 1.2rem;
+  }
+}
