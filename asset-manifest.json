@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a5682d2c.css",
-    "main.js": "/portfolio/static/js/main.bb88fa5a.js",
+    "main.js": "/portfolio/static/js/main.99533c76.js",
     "static/js/453.acca0757.chunk.js": "/portfolio/static/js/453.acca0757.chunk.js",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.09457765b07172a97d90.png",
     "static/media/AdobeStock_352150444 01 Artboard 3.svg": "/portfolio/static/media/AdobeStock_352150444 01 Artboard 3.271ac34c0bc9874f371f.svg",
     "index.html": "/portfolio/index.html",
     "main.a5682d2c.css.map": "/portfolio/static/css/main.a5682d2c.css.map",
-    "main.bb88fa5a.js.map": "/portfolio/static/js/main.bb88fa5a.js.map",
+    "main.99533c76.js.map": "/portfolio/static/js/main.99533c76.js.map",
     "453.acca0757.chunk.js.map": "/portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5682d2c.css",
-    "static/js/main.bb88fa5a.js"
+    "static/js/main.99533c76.js"
   ]
 }
