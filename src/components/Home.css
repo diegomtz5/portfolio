@@ -396,8 +396,9 @@ body::before {
   /* Projects List Section */
   .projects-list {
     padding: 30px 20px;
-    background-color: rgba(245, 245, 245, 0.95); /* Ensure uniform background */
-  }
+    background-color: rgba(255, 255, 255, 0.95); /* Slightly darker shade */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to create separation */
+}
 
   .projects-list ul {
     flex-direction: column;
