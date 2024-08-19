@@ -317,6 +317,7 @@ body::before {
   /* Header Adjustments */
   .header {
     position: relative; /* Change to relative instead of fixed */
+    flex-direction: column;
     padding: 15px 10px;
     align-items: center;
   }
@@ -340,7 +341,7 @@ body::before {
 
   /* Welcome Section Adjustments */
   .welcome-section {
-    padding: 0 ;
+    padding: 0 20px;
     min-height: auto;
     text-align: center;
   }
