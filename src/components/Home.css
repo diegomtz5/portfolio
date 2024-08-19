@@ -115,8 +115,8 @@ body::before {
 .about-section {
   background-color: #f5f5f5;
   padding: 100px 200px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1); /* Top and bottom shadow */
+
 }
 
 .about-section h2 {
