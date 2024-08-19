@@ -316,7 +316,7 @@ body::before {
 @media (max-width: 768px) {
   /* Header Adjustments */
   .header {
-    flex-direction: column;
+    position: relative; /* Change to relative instead of fixed */
     padding: 15px 10px;
     align-items: center;
   }
@@ -340,7 +340,7 @@ body::before {
 
   /* Welcome Section Adjustments */
   .welcome-section {
-    padding: 0 20px;
+    padding: 0 ;
     min-height: auto;
     text-align: center;
   }
