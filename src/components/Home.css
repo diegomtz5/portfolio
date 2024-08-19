@@ -397,7 +397,7 @@ body::before {
   .projects-list {
     padding: 30px 20px;
     background-color: rgba(255, 255, 255, 0.95); /* Slightly darker shade */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to create separation */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1); /* Top and bottom shadow */
     border-radius: 8px; /* Optional: Add rounded corners for a more refined look */
 }
 
