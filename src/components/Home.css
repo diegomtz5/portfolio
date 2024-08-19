@@ -340,6 +340,9 @@ body::before {
   .navbar-right ul li {
     font-size: 1rem;
   }
+  .navbar-center {
+    margin-bottom: 25px; /* Add extra margin below the center section */
+  }
 
   /* Welcome Section Adjustments */
   .welcome-section {
