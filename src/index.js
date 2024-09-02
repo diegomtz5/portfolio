@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import WebFont from 'webfontloader';
+import { Analytics } from "@vercel/analytics/react"
 
 WebFont.load({
   google: {
