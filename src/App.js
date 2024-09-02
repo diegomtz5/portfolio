@@ -13,6 +13,8 @@ import Header from './components/Header';
 function App() {
   return (
     <Router>
+      <Analytics />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects/budget-to-budget" element={<><Header /><BudgetToBudget /></>} />
