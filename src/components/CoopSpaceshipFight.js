@@ -1,10 +1,13 @@
 import React from 'react';
 import './Project.css';
+import slingShot from '../assets/SlingShot.png'; // Correct image path
 
 const CoopSpaceshipFight = () => {
   return (
     <div className="project-detail">
       <h2>Couch Co-op Spaceship Fight Game</h2>
+      <img src={slingShot} alt="SlingShot project" className="project-image" />
+
       <p>
         <strong>Description:</strong> This is a competitive couch co-op video game where two players engage in 1v1 spaceship battles. The game is designed for fast-paced, action-packed combat on a single screen, with each player controlling a spaceship and trying to outmaneuver and defeat the other.
       </p>

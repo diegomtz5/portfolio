@@ -77,6 +77,30 @@
   background-color: #00a0a0;
   transform: translateY(-3px);
 }
+.project-image {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.image-gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.image-wrapper {
+  width: 30%;
+}
+
+.project-images {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 
 /* Load animations */
 @keyframes fadeInUp {

@@ -1,10 +1,13 @@
 import React from 'react';
 import './Project.css';
+import songPopularity from '../assets/SongPopularityFrontEnd.png'; // Correct image path
 
 const MLProject = () => {
   return (
     <div className="project-detail">
       <h2>Machine Learning Song Popularity Predictor</h2>
+      <img src={songPopularity} alt="ML Project Visualization" className="project-image" />
+
       <p>
         <strong>Description:</strong> This project uses machine learning to predict whether a song will be popular based on parameters like tempo, key, and loudness. The model was trained on a dataset of popular songs and evaluated for accuracy.
       </p>

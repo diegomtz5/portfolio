@@ -1,10 +1,13 @@
 import React from 'react';
 import './Project.css';
+import interactiveFloorplan from '../assets/InteractiveFloorplan.png'; // Correct image path
 
 const PortfolioWebsite = () => {
   return (
     <div className="project-detail">
       <h2>Java Swing Interactive Floorplan Designer</h2>
+      <img src={interactiveFloorplan} alt="Floorplan demo" className="project-image" />
+
       <p>
         <strong>Description:</strong> This project is an interactive floorplan designer built using Java Swing. It allows users to create and design floorplans by dragging and dropping elements like walls, doors, windows, and furniture onto a canvas. The floorplan designer includes features such as grid snapping, and the ability to save and load designs.
       </p>
